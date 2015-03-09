@@ -1,0 +1,44 @@
+﻿#container {
+    display:block;margin:auto;
+}
+
+h1 {
+    background:#7ec9ac;color:#555555;font-size:40px;font-weight:bold;position:relative;padding:50px 20px;
+}
+
+.desc {
+    background-color:#3A3334;padding:10px 20px;margin-top:20px;color:#ffffff;
+}
+
+#documentation {
+    background-color:#9A3334;padding:10px 20px;margin-top:20px;color:#ffffff;
+}
+
+#documentation a {
+    color:#ffffff;text-decoration:underline;
+}
+
+#source_code {
+    background-color:#81A594;padding:10px 20px 20px 20px;margin-top:20px;color:#444444;
+}
+
+#source_code a {
+    color:#ffffff;text-decoration:none;
+}
+
+#references {
+    background-color:#81A594;padding:10px 20px 20px 20px;margin-top:20px;color:#444444;
+}
+
+#references a {
+    color:#ffffff;text-decoration:none;
+}
+
+a {
+    color:#333333;text-decoration:none;
+}
+
+table, thead , td  {
+          border-collapse: collapse;
+          padding: 7px;
+}

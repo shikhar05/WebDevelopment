@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html />
+<html lang="en">
+<head>
+    <title>Week 7 - Simple NodeJS Response</title>
+    <link href="../../bootstrap-3.3.2-dist/css/bootstrap.css" rel="Stylesheet" />
+    <link href="../../bootstrap-3.3.2-dist/css/bootstrap-theme.css" rel="Stylesheet" />
+    <link rel="Stylesheet" href="simpleNodeJS.css" />
+    
+    <script src="../../angularJS/angular.min.js"></script>
+    <script src="../../angularJS/angular-route.js"></script>
+    <script src="simpleNodeJS.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Simple NodeJS Response</h1>
+        <div><a href="http://nodejs-shikhar5.rhcloud.com/content"> Click Here to see the Output</a></div>
+        <div id="documentation">
+            <h3>Documentation</h3>
+            <p>
+                In this experiment I have just returned simple text after doing the following: <br />
+                1) Register on Open Shift website <br />
+                2) Create an node.js application
+                <br /><br />
+                app.get('/content', function (req, res) { <br />
+                res.send('...'); <br />
+                }); <br />
+                This sends a simple responce to the client that accessed the link. <br />
+                1) app.get (a http method) sends responce to the client <br />
+                2) When the server hits http://nodejs-shikhar5.rhcloud.com, it searches for /content in the JS and responds accordingly
+            </p>
+        </div>
+        <div id="source_code">
+            <h3>Source code</h3>
+            <p>
+                <a href="../../fileview/default.aspx?~/Experiments/007-NodeJS/simpleNodeJS.html" target="_blank">Source HTML</a><br />
+                <a href="../../fileview/default.aspx?~/Experiments/007-NodeJS/simpleNodeJS.css" target="_blank">Source CSS</a>
+            </p>
+        </div>
+        <div id="references">
+            <h3>References</h3>
+            <a href="https://www.youtube.com/watch?v=Lnd_uSEpCdo" target="_blank">Prof. Jose's NodeJS video</a>
+        </div>
+    </div>
+</body>
+</html>
